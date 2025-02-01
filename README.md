@@ -17,34 +17,45 @@ This is a simple chatbot using the OpenAI GPT-3.5-turbo model, built with Python
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/chatbot-project.git
+   ```bash
+   git clone https://github.com/GebrecherkosAbrha/chatbot.git
+    cd chatbot-project
+   ```
 
-2. Navigate to the project directory:
+2. Create a virtual environment:
 
-   cd chatbot-project
+```bash
+python -m venv venv
+```
 
-3. Create a virtual environment:
+3. Activate the virtual environment:
 
-   python -m venv venv
+- **Activate the Virtual Environment:**
+  **On Windows:**
 
-4. Activate the virtual environment:
+  ```bash
+      venv\Scripts\activate
+  ```
 
-   - **Windows**:
-     venv\Scripts\activate
-   - **Mac/Linux**:
-     source venv/bin/activate
+  **On macOS/Linux:**
 
-5. Install dependencies:
+  ```bash
+      source venv/bin/activate
+  ```
 
+4. Install dependencies:
+
+   ```bash
    pip install -r requirements.txt
+   ```
 
-6. Create a `.env` file in the project root and add your OpenAI API key:
+5. Create a `.env` file in the project root and add your OpenAI API key:
 
-   OPENAI_API_KEY=your-openai-api-key-here
+   OPENAI_API_KEY= `your-openai-api-key-here`
 
-7. Run the chatbot:
+6. Run the chatbot:
 
-   python chatbot.py
+   `python chatbot.py`
 
 ## OpenAI API Key
 
