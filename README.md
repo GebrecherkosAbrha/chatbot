@@ -19,7 +19,7 @@ This is a simple chatbot using the OpenAI GPT-3.5-turbo model, built with Python
 
    ```bash
    git clone https://github.com/GebrecherkosAbrha/chatbot.git
-    cd chatbot-project
+    cd chatbot
    ```
 
 2. Create a virtual environment:
